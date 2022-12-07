@@ -48,7 +48,6 @@ fun buildFileSystemModel(): RootDirectory {
 
 
 fun handleLs(parent: Node, output: String) {
-//    if(output.isBlank()) return // TODO:
     val nodes = output.lines().map {
         val (size, name) = it.split(" ")
 
